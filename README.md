@@ -1,9 +1,9 @@
-# BoardGame Using 2D Graphics Player vs AI
+# BoardGame Using 2D Graphics Player vs Player
 
-This project is a **strategy game on a 7x7 grid** with an **AI opponent**. The AI utilizes the **Minimax algorithm with Alpha-Beta pruning** to optimize its moves.
+This project is a **strategy game on a 7x7 grid** with a two-player mode (Player vs. Player).
 
 ## Features
--  Play against an AI opponent
+-  Two-player mode(turn-based)
 -  Highlights valid moves
 -  Capture mechanics
 -  GUI with Java Swing
@@ -13,15 +13,13 @@ This project is a **strategy game on a 7x7 grid** with an **AI opponent**. The A
 Follow these steps to run the project:
 
 ```sh
-git clone https://github.com/YOUR_USERNAME/BoardGameG2DwithAI.git
 cd BoardGameG2DwithAI
 javac BoardGameG2DwithAI.java
 java BoardGameG2DwithAI
 ```
 
 ## The Rules of the Game
- The board size is 7*7. Triangle symbols are the pieces of Player 1 which is the AI-based player. 
- Circle symbols are the pieces of Player 2 which is the human player. 
+ The board size is 7*7. Triangle symbols are the pieces of Player 1, circle symbols are the pieces of Player 2. 
  Every player has four pieces, and the game starts with the board configuration, as shown in figure. 
  When the game starts, Player 1 moves first.
 
